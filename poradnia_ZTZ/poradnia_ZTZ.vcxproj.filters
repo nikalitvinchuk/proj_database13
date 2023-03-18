@@ -24,6 +24,12 @@
     <None Include="style1.css">
       <Filter>Pliki źródłowe</Filter>
     </None>
+    <None Include="logowanie.html">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+    <None Include="style2.css">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\min.png">
@@ -32,5 +38,16 @@
     <Image Include="..\..\m4.png">
       <Filter>img</Filter>
     </Image>
+    <Image Include="background6.jpg">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="min3.png">
+      <Filter>img</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="notatki.txt">
+      <Filter>Pliki źródłowe</Filter>
+    </Text>
   </ItemGroup>
 </Project>
