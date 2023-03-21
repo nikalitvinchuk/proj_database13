@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="rejestracja.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="logowanie.html" />
     <None Include="poradnia_ZTZ.html" />
     <None Include="style1.css" />
     <None Include="style2.css" />
+    <None Include="style3.css" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\m4.png" />

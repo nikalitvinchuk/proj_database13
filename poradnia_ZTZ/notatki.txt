@@ -1,2 +1,3 @@
 poraddniaZTZ.html - style1
 logowanie.html - style2
+rejestracja - style3

@@ -9,9 +9,10 @@
         {
             var username = document.getElementById('username-input').value;
             var password = document.getElementById('password-input').value;
-            if (username === 'user' && password === 'user')
+            if (username == 'user' && password == 'user')
             {
-                window.open("poradnia_ZTZ.html");
+                console.log('Przekierowanie na stronę poradnia_ZTZ.html')
+                window.location="poradnia_ZTZ.html";
             }
             else
             {
@@ -31,16 +32,16 @@
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <input type="text" id="username-input" required>
-                        <label for="username-input">Login</label>
+                        <label>Login</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
                         <input type="password" id="password-input" required>
-                        <label for="password-input">Hasło</label>
+                        <label>Hasło</label>
                     </div>
-                    <button type="submit" onclick="zaloguj()">Zaloguj się</button>.
+                    <button type="button" onclick="zaloguj()">Zaloguj się</button>.
                     <div class="register">
-                        <p>Nie mam konta <a href="#">Stwórz konto</a></p>
+                        <p>Nie mam konta <a href="rejestracja.html">Stwórz konto</a></p>
                     </div>
                 </form>
             </div>
