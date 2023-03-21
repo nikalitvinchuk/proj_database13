@@ -128,18 +128,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="logowanie.html" />
-    <None Include="poradniaZTZ.html" />
+    <None Include="poradnia_ZTZ.html" />
     <None Include="style1.css" />
     <None Include="style2.css" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\m4.png" />
     <Image Include="..\..\min.png" />
+    <Image Include="1.jpg" />
     <Image Include="background6.jpg" />
     <Image Include="min3.png" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="notatki.txt" />
+    <Text Include="skrypt1.js" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

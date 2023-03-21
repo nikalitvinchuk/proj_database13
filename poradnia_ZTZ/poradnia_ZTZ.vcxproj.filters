@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="poradniaZTZ.html">
+    <None Include="poradniaztz.html">
       <Filter>Pliki źródłowe</Filter>
     </None>
     <None Include="style1.css">
@@ -44,9 +44,15 @@
     <Image Include="min3.png">
       <Filter>img</Filter>
     </Image>
+    <Image Include="1.jpg">
+      <Filter>img</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="notatki.txt">
+      <Filter>Pliki źródłowe</Filter>
+    </Text>
+    <Text Include="skrypt1.js">
       <Filter>Pliki źródłowe</Filter>
     </Text>
   </ItemGroup>

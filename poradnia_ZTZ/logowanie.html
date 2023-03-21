@@ -3,24 +3,42 @@
 <head>
     <link rel="stylesheet" href="style2.css">
     <title>LOGOWANIE ZTZ</title>
+
+    <script type="text/javascript">
+        function zaloguj()
+        {
+            var username = document.getElementById('username-input').value;
+            var password = document.getElementById('password-input').value;
+            if (username === 'user' && password === 'user')
+            {
+                window.open("poradnia_ZTZ.html");
+            }
+            else
+            {
+                alert('Nieprawidłowy login lub hasło. Spróbuj ponownie.');
+            }
+        }
+    </script>
+   
+
 </head>
 <body>
     <section>
         <div class="form-box">
             <div class="form-value">
-                <form action="">
+                <form id="login-form">
                     <h2>Login</h2>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <input type="text" required>
-                        <label for="">Login</label>
+                        <input type="text" id="username-input" required>
+                        <label for="username-input">Login</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
-                        <label for="">Hasło</label>
+                        <input type="password" id="password-input" required>
+                        <label for="password-input">Hasło</label>
                     </div>
-                    <button>Zaloguj się</button>
+                    <button type="submit" onclick="zaloguj()">Zaloguj się</button>.
                     <div class="register">
                         <p>Nie mam konta <a href="#">Stwórz konto</a></p>
                     </div>
