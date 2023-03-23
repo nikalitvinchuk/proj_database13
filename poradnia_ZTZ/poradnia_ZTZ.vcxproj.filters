@@ -34,6 +34,18 @@
     <None Include="style3.css">
       <Filter>Pliki źródłowe</Filter>
     </None>
+    <None Include="narzedzia.html">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+    <None Include="style4.css">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+    <None Include="bmi.html">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+    <None Include="style5.css">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\min.png">
